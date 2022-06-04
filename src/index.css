@@ -4,14 +4,115 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-color: #1A1B21;
+  max-width: 400px;
+  height: 753px;
+}
+
+.professional-info {
+  text-align: center;
+}
+
+.professional-info>img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 20px;
+}
+
+.name {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.profession {
+  color: #F3BF99;
+  font-weight: 400;
+  font-size: 12.8px;
+}
+
+.portfolio {
+  margin-top: 2px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 10.24px;
+  font-weight: 400;
+}
+
+.email-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 13.5px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 9px 35px 9px 35px;
+  margin-right: 50px;
+}
+
+.email-link>img {
+  padding-right: 10px;
+  vertical-align: baseline;
+}
+
+.linkedin-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13.5px;
+  background-color: #5093E2;
+  padding: 9px 22px 9px 24px;
+  border-radius: 6px;
+}
+
+.linkedin-link>img {
+  padding-right: 10px;
+  vertical-align: text-top;
+}
+
+.about {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 20px;
+}
+
+.about>p {
+  max-width: 400px;
+}
+
+.interest {
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.interest>p {
+  max-width: 400px;
+}
+
+.footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer>a {
+  margin: 10px;
 }
